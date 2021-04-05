@@ -7,7 +7,13 @@ Where DangKi_XetTuyen.MaDiemHocBa=DiemHocBa.MaDiemHocBa AND DiemHocBa.MaHocSinh=
 AND DangKi_XetTuyen.MaTXHTNganhHoc = THXTNganhHoc.MaTXHTNganhHoc 
 
 -- PROC_SelectAllHocSinh -- 
-SELECT * FROM HocSinh
+CREATE PROCEDURE PROC_selectAllHocSinh
+AS
+BEGIN
+	SET NOCOUNT ON;
+	SELECT * FROM HocSinh
+END
+GO
 
 -- PROC_SelectHocSinhGetById
 SELECT * FROM HocSinh

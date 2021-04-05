@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace UIL
 {
-    public partial class frmQuanTriThongTinHS : Form
+    public partial class frmAddStudent : Form
     {
-        public frmQuanTriThongTinHS()
+        public frmAddStudent()
         {
             InitializeComponent();
         }

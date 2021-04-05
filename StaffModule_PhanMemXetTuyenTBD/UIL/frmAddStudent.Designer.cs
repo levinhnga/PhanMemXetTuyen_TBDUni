@@ -1,7 +1,7 @@
 ﻿
 namespace UIL
 {
-    partial class frmDangNhap
+    partial class frmAddStudent
     {
         /// <summary>
         /// Required designer variable.
@@ -31,13 +31,14 @@ namespace UIL
         {
             this.SuspendLayout();
             // 
-            // frmDangNhap
+            // frmAddStudent
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(580, 343);
-            this.Name = "frmDangNhap";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Name = "frmAddStudent";
+            this.Text = "frmAddStudent";
             this.ResumeLayout(false);
 
         }
@@ -45,4 +46,3 @@ namespace UIL
         #endregion
     }
 }
-

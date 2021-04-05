@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UIL
 {
-    public partial class frmDangNhap : Form
+    public partial class frmLogin : Form
     {
-        public frmDangNhap()
+        public frmLogin()
         {
             InitializeComponent();
         }

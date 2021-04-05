@@ -1,7 +1,7 @@
 ﻿
 namespace UIL
 {
-    partial class frmChiTieuXetTuyen
+    partial class frmHoSoHS
     {
         /// <summary>
         /// Required designer variable.
@@ -31,14 +31,14 @@ namespace UIL
         {
             this.SuspendLayout();
             // 
-            // frmChiTieuXetTuyen
+            // frmEditStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Name = "frmChiTieuXetTuyen";
-            this.Text = "frmChiTieuXetTuyen";
+            this.Name = "frmEditStudent";
+            this.Text = "frmEditStudent";
             this.ResumeLayout(false);
 
         }
