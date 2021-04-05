@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace UIL
 {
-    public partial class Form1 : Form
+    public partial class frmChiTieuXetTuyen : Form
     {
-        public Form1()
+        public frmChiTieuXetTuyen()
         {
             InitializeComponent();
         }
-
     }
 }
